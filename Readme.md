@@ -2,35 +2,29 @@
 
 多种风格可选的萌萌计数器
 
-![Moe-Counter](https://count.getloli.com/get/@Moe-counter.github)
+![Moe-Counter](https://moe-counter.sakuras.in/get/@Moe-counter.github)
 
 <details>
 <summary>More theme</summary>
 
 ##### asoul
-![asoul](https://count.getloli.com/get/@demo?theme=asoul)
+![asoul](https://moe-counter.sakuras.in/get/@demo?theme=asoul)
 
 ##### moebooru
-![moebooru](https://count.getloli.com/get/@demo?theme=moebooru)
+![moebooru](https://moe-counter.sakuras.in/get/@demo?theme=moebooru)
 
 ##### rule34
-![Rule34](https://count.getloli.com/get/@demo?theme=rule34)
+![Rule34](https://moe-counter.sakuras.in/get/@demo?theme=rule34)
 
 ##### gelbooru
-![Gelbooru](https://count.getloli.com/get/@demo?theme=gelbooru)</details>
+![Gelbooru](https://moe-counter.sakuras.in/get/@demo?theme=gelbooru)</details>
 
 ## Demo
-[https://count.getloli.com](https://count.getloli.com)
+[https://count.getloli.com](https://moe-counter.sakuras.in)
 
 ## Usage
 
 ### Install
-
-#### Run on Replit
-
-- Open the url [https://replit.com/@journeyad/Moe-Counter](https://replit.com/@journeyad/Moe-Counter)
-- Just hit the **Fork** button
-- And hit the **Run** button
 
 #### Deploying on your own server
 
@@ -62,11 +56,7 @@ If you use mongodb, you need to specify the environment variable `DB_URL`
 export DB_URL=mongodb+srv://account:passwd@***.***.***.mongodb.net/db_count
 ```
 
-replit can use Secrets, [documentation](https://docs.replit.com/programming-ide/storing-sensitive-information-environment-variables)
 
-```
-DB_URL="mongodb+srv://account:passwd@***.***.***.mongodb.net/db_count"
-```
 
 ## Credits
 
