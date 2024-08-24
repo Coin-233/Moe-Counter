@@ -20,7 +20,7 @@
 ![Gelbooru](https://moe-counter.sakuras.in/get/@demo?theme=gelbooru)</details>
 
 ## Demo
-[https://count.getloli.com](https://moe-counter.sakuras.in)
+[https://moe-counter.sakuras.in](https://moe-counter.sakuras.in)
 
 ## Usage
 
