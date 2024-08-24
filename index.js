@@ -8,7 +8,6 @@ const compression = require('compression')
 const db = require('./db')
 const themify = require('./utils/themify')
 
-const PLACES = 7
 
 const app = express()
 
@@ -25,7 +24,7 @@ app.get('/', (req, res) => {
 app.get('/get/@:name', async (req, res) => {
   const { name } = req.params
   const { theme = 'moebooru' } = req.query
-  let length = PLACES
+  const {length} = req.query
 
   // This helps with GitHub's image cache 
   res.set({
@@ -46,7 +45,7 @@ app.get('/get/@:name', async (req, res) => {
   const renderSvg = themify.getCountImage({ count: data.num, theme, length })
   res.send(renderSvg)
 
-  console.log(data, `theme: ${theme}`, `ref: ${req.get('Referrer') || null}`, `ua: ${req.get('User-Agent') || null}`)
+  console.log(data, `theme: ${theme}`, `ref: ${req.get('Referrer') || null}`, `length: ${length || 7}`, `ua: ${req.get('User-Agent') || null}`)
 })
 
 // JSON record
