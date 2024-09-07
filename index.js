@@ -38,7 +38,6 @@ app.get('/get/@:name', async (req, res) => {
     res.set({
       'cache-control': 'max-age=31536000'
     })
-    length = 10
   }
 
   // Send the generated SVG as the result
